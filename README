@@ -1,0 +1,21 @@
+This project is a php sqlite based simple user management system for administering users on an htdigest backend, popularly used with svn over http.  The following features are intended for the first release:
+
+
+- User password reset using guid post urls (timing out)
+- lite user administration
+  - removing change/forgot/reg link
+  - adding users, emailing them their passwords, inviting them to change it
+  - initiate password reset
+- email logs
+
+
+features for the next release
+
+- user initiates
+  - registration
+  - password change
+
+- admin
+  - auto registration
+  - close registration
+  - by request registration
